@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  <div data-role="page">
+    
+    <div data-role="header" style="background:-webkit-linear-gradient(rgb(143,189,207),rgb(25,24,44))">
+      <a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-btn-b ui-icon-home" style="margin-top: 25px;"></a>
+      <h1 style="font-size:32px;color: white">小說</h1>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+        <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">Heros List</li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+        <li is="listview-li">
+          <a href="#Content1" data-transition="slide">狼與辛香料</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content2" data-transition="flip">在地下城尋求邂逅是否搞錯了甚麼</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content3" data-transition="slideup">我的怪物眷族</a>
+        </li>              
+      </ul>
+    </div>
+  </div>    
+  
+  <!-- 狼與辛香料 Page: Content  -->
+  <div id="Content1" data-role="page">
+    <div data-role="header" data-position="fixed" data-theme="b">
+      <h3>故事</h3>
+      <a class="ui-btn ui-btn-left" href="b.html" data-transition="slide" data-direction="reverse">Back</a>
+    </div>
+    <div class="ui-content">
+      <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">狼與辛香料</div>
+      <p>旅行於各地收購並販賣物品的旅行商人克拉福·羅倫斯拜訪帕斯羅村時，在裝滿麥子的馬車上發現熟睡的少女。那是一位有著狼耳朵和尾巴的美麗少女，她自稱是司掌豐收的狼神赫蘿。羅倫斯被擅長狡獪交談術的赫蘿耍得團團轉，雖然對她是否真為豐收狼神一事半信半疑，但還是答應跟赫蘿一同踏上旅程。</p>
+      <div class="ui-grid-b">                
+      </div>
+          <div class="ui-block-a">
+        <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+          <img src="images/wolf1.jpg" height="100%">
+        </div>
+      </div>
+          <div class="ui-block-b">
+        <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+          <img src="images/wolf2.jpg" height="100%">
+        </div>
+      </div>          
+    </div>
+  </div>
+  
+  <!-- 在地下城尋求邂逅是否搞錯了什麼 Page: Content  -->
+  <div id="Content2" data-role="page">
+    <div data-role="header" data-position="fixed" data-theme="b">
+      <h3>故事</h3>
+      <a class="ui-btn ui-btn-left" href="b.html" data-transition="slide" data-direction="reverse">Back</a>
+    </div>
+    <div class="ui-content">
+      <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">在地下城尋求邂逅是否搞錯了什麼</div>
+      <p>迷宮都市歐拉麗是一座擁有雄偉地下迷宮（通稱「地下城」）的巨大都市。為了實現英雄故事中「在地下城邂逅迷人女主角」而進入迷宮的少年貝爾·克朗尼，卻被強大怪物「彌諾陶洛斯」襲擊。危急之際，上級冒險者艾絲·華倫斯坦出面拯救了貝爾，被艾絲的英勇舉動感動的貝爾更因此愛慕著對方，將對方當成目標，希望能成為配得上她的男人。</p>
+      <div class="ui-grid-b">                
+      </div>
+          <div class="ui-block-a">
+        <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+          <img src="images/town1.jpg" height="100%">
+        </div>
+      </div>
+          <div class="ui-block-b">
+        <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+          <img src="images/town.jpg" height="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <!-- 我的怪物眷族 Page: Content  -->
+    <div id="Content3" data-role="page">
+      <div data-role="header" data-position="fixed" data-theme="b">
+        <h3>故事</h3>
+        <a class="ui-btn ui-btn-left" href="b.html" data-transition="slide" data-direction="reverse">Back</a>
+      </div>
+      <div class="ui-content">
+        <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">我的怪物眷族</div>
+        <p>一天，某間高中的學生竟全部被傳送到異世界。在傳送過程中獲得異能的學生們彼此爭戰，害真岛孝弘身陷怪物肆虐的森林里。
+          而救他脫離困境的，竟然是一只史萊姆！？一一原来真島孝弘獲得的，是『能將怪物化為眷屬的能力』！
+          真島孝弘將史莱姆取名为莉莉，後來又讓另一具魔法人偶洛絲加入队伍。
+          但幾天後，他在森林裡發現校花·水岛美穗的遺體，並看到莉莉吸收消化了她，擬態为她的外貌……
+          由真島孝弘同他勇猛的怪物们一同譜出的，異世界生存奇幻之作</p>
+          </div>
+        <div class="ui-grid-b">       
+            <div class="ui-block-a">
+          <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+            <img src="images/mosfamily.jpg" height="100%">
+          </div>
+        </div>
+            <div class="ui-block-b">
+          <div class="ui-bar ui-bar-a" style="height:100%;text-align: center;">
+            <img src="images/mosfamily2.jpg" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
+      
+      
+      
+      
+      <div data-role="footer">
+        <h4>@copyright ezTravel.All rights reserved</h4>
+      </div><!-- /footer -->
+    </body>
+    </html>
